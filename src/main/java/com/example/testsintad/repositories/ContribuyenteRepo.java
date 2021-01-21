@@ -1,5 +1,7 @@
 package com.example.testsintad.repositories;
 
-public interface ContribuyenteRepo {
+import com.example.testsintad.models.Contribuyente;
+
+public interface ContribuyenteRepo extends GenericRepo<Contribuyente, Integer>{
 
 }

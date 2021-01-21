@@ -1,5 +1,8 @@
 package com.example.testsintad.services;
 
-public interface ContribuyenteService {
+
+import com.example.testsintad.models.Contribuyente;
+
+public interface ContribuyenteService extends CRUD<Contribuyente, Integer> {
 
 }

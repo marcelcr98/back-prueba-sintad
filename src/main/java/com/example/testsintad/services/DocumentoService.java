@@ -1,5 +1,7 @@
 package com.example.testsintad.services;
 
-public interface DocumentoService {
+import com.example.testsintad.models.Documento;
+
+public interface DocumentoService extends CRUD<Documento, Integer> {
 
 }

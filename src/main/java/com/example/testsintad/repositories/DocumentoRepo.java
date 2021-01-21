@@ -1,5 +1,8 @@
 package com.example.testsintad.repositories;
 
-public interface DocumentoRepo {
+
+import com.example.testsintad.models.Documento;
+
+public interface DocumentoRepo extends GenericRepo<Documento, Integer>{
 
 }
